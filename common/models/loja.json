@@ -1,0 +1,36 @@
+{
+  "name": "Loja",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "ativo": {
+      "type": "boolean"
+    },
+    "cnpj": {
+      "type": "string"
+    },
+    "razao_social": {
+      "type": "string"
+    },
+    "nome_fantasia": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "usuarios": {
+      "model": "User",
+      "type": "hasMany",
+      "foreignKey": "lojaId",
+      "through": "User_loja"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

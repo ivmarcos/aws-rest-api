@@ -1,0 +1,71 @@
+{
+  "name": "Venda_produto",
+  "base": "PersistedModel",
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "id": true      
+    },
+    "lojaId": {
+      "type": "number"
+    },
+    "num_seq_ped": {
+      "type": "number"
+    },
+    "vinculado_it": {
+      "type": "number"
+    },
+    "vinculado_add_it": {
+      "type": "number"
+    },
+    "cod_prod": {
+      "type": "string"
+    },
+    "qtd_it": {
+      "type": "number"
+    },
+    "total_bruto_it": {
+      "type": "number"
+    },
+    "valor_alt_it": {
+      "type": "number"
+    },
+    "valor_servico_it": {
+      "type": "number"
+    },
+    "valor_alt_total_it": {
+      "type": "number"
+    },
+    "dt_hr_it": {
+      "type": "date"
+    },
+    "desc_prod": {
+      "type": "string"
+    },
+    "valor_compra_it": {
+      "type": "number"
+    },
+    "valor_venda_it": {
+      "type": "number"
+    },
+    "paga_servico_it": {
+      "type": "boolean"
+    },
+    "vendedor_nome": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "venda": {
+      "type": "belongsTo",
+      "model": "Venda",
+      "foreignKey": "num_seq_ped",
+      "primaryKey": "num_seq_ped"
+    }},
+  "acls": [],
+  "methods": {}
+}

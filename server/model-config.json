@@ -13,30 +13,60 @@
       "./mixins"
     ]
   },
+
   "User": {
-    "dataSource": "db"
+    "dataSource": "pallas",
+    "public": false
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "pallas",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "pallas",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "pallas",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "pallas",
     "public": false
   },
 
-  "itens": {
+  "Usuario": {
+    "dataSource": "pallas",
+    "public": true
+  },
+  "Loja": {
+    "dataSource": "pallas",
+    "public": true
+  },
+  "User_loja": {
+    "dataSource": "pallas",
+    "public": false
+  },
+
+  
+  "Venda": {
+    "dataSource": "pallas",
+    "public": true
+  },
+  "Venda_produto": {
+    "dataSource": "pallas",
+    "public": true
+  },
+  "Venda_recebimento": {
+    "dataSource": "pallas",
+    "public": true
+  },
+
+
+  "Produto": {
     "dataSource": "pallas",
     "public": true
   }

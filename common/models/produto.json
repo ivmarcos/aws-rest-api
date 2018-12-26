@@ -1,0 +1,41 @@
+{
+  "name": "Produto",
+  "base": "PersistedModel",
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "id": true      
+    },
+    "lojaId": {
+      "type": "number"
+    },
+    "criado": {
+      "type": "date"
+    },
+    "atualizado": {
+      "type": "date"
+    },
+    "cod_prod": {
+      "type": "number"
+    },
+    "cod_aux": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "string"
+    },
+    "valor_custo": {
+      "type": "number"
+    },
+    "valor_venda": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

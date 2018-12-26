@@ -1,0 +1,20 @@
+{
+    "name": "Usuario",
+    "base": "User",
+    "relations": {
+      "lojas": {
+        "model": "Loja",
+        "type": "hasMany",
+        "foreignKey": "userId",
+        "through": "User_loja"
+      }
+    },
+    "acls": [
+      {
+        "principalType": "ROLE",
+        "principalId": "$authenticated",
+        "permission": "ALLOW",
+        "property": "configuracao"
+      }
+    ]
+}
