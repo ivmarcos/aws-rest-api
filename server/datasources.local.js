@@ -6,10 +6,10 @@
 module.exports = {
     pallas: {
       connector: 'mysql',
-      database: 'pallas_nuvem',
-      hostname: process.env.RDS_HOSTNAME || 'localhost',
-      port:     process.env.RDS_PORT     || 3306,
-      user:     process.env.RDS_USERNAME || 'root',
-      password: process.env.RDS_PASSWORD || 'P$f130'
+      database:  'pallas_nuvem',
+      hostname:  '167.99.8.154',
+      port:      3306,
+      user:      'pallas',
+      password:  'sispallasP$f130'
     }
   };
