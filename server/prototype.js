@@ -81,5 +81,9 @@ Array.prototype.limit = function(limit) {
 }
 
 Array.prototype.top = function(prop, limit) {
-  return this.orderBy(prop, 'desc').limit(limit)
+  return this.orderBy(prop, true).limit(limit)
+}
+
+Array.prototype.bottom = function(prop, limit) {
+  return this.orderBy(prop, false).limit(limit)
 }
