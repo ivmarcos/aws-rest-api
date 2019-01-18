@@ -29,10 +29,16 @@
       "type": "number"
     },
     "valor_movimento": {
-      "type": "number"
+      "type": "number",
+      "dataType": "float",
+      "precision": 11,
+      "scale": 2
     },
     "saldo_outros": {
-      "type": "number"
+      "type": "number",
+      "dataType": "float",
+      "precision": 11,
+      "scale": 2
     },
     "dt_hr_rec": {
       "type": "date"

@@ -25,19 +25,34 @@
       "type": "string"
     },
     "qtd_it": {
-      "type": "number"
+      "type": "number",
+      "dataType": "float",
+      "precision": 10,
+      "scale": 4
     },
     "total_bruto_it": {
-      "type": "number"
+      "type": "number",
+      "dataType": "float",
+      "precision": 10,
+      "scale": 4
     },
     "valor_alt_it": {
-      "type": "number"
+      "type": "number",
+      "dataType": "float",
+      "precision": 10,
+      "scale": 4
     },
     "valor_servico_it": {
-      "type": "number"
+      "type": "number",
+      "dataType": "float",
+      "precision": 10,
+      "scale": 4
     },
     "valor_alt_total_it": {
-      "type": "number"
+      "type": "number",
+      "dataType": "float",
+      "precision": 10,
+      "scale": 4
     },
     "dt_hr_it": {
       "type": "date"
@@ -46,10 +61,16 @@
       "type": "string"
     },
     "valor_compra_it": {
-      "type": "number"
+      "type": "number",
+      "dataType": "float",
+      "precision": 10,
+      "scale": 4
     },
     "valor_venda_it": {
-      "type": "number"
+      "type": "number",
+      "dataType": "float",
+      "precision": 10,
+      "scale": 4
     },
     "paga_servico_it": {
       "type": "boolean"

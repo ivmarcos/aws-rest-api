@@ -19,7 +19,10 @@
       "type": "string"
     },
     "valor": {
-      "type": "number"
+      "type": "number",
+      "dataType": "float",
+      "precision": 11,
+      "scale": 2
     }
   },
   "validations": [],
